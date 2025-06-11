@@ -1,0 +1,24 @@
+.citizens{
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display:inline-block;
+  color: yellowgreen;
+}
+
+.productcard{
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+  display:inline-block;
+  color: tomato;
+  
+}
