@@ -14,5 +14,17 @@ function ProductCard(props){
     );
 }
 
+ProductCard.propTypes ={
+    name : PropTypes.string,
+    price : PropTypes.number,
+    InStock: PropTypes.bool,
+}
+
+ProductCard.defaultTypes = {
+    name : "Product",
+    price : 0,
+    InStock : true
+}
+
 
 export default ProductCard

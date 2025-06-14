@@ -14,6 +14,7 @@ function App() {
    <ProductCard name="Rice" price={5000} inStock={true}></ProductCard>
    <ProductCard name="Potatoes" price={1500} inStock={false}></ProductCard>
    <ProductCard name="Pork" price={25000} inStock={true}></ProductCard>
+   <ProductCard name="Product"></ProductCard>
    
    </>
 }
