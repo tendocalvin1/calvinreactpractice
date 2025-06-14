@@ -11,6 +11,8 @@ function App() {
    <Citizens name="Daniel" country="Kenya" age={25} city="Nairobi"></Citizens>
    <Citizens name="David" country="Tanzania" age={28} city="Dodoma"></Citizens>
    <Citizens name="Arnold" country="Rwanda" age={26} city="Kigali"></Citizens>
+   <Citizens name="Micah" country="United Kingdom" age={38} city="Manchester"></Citizens>
+   <Citizens name="Lineker" country="United Kingdom" age={64} city="Leicester"></Citizens>
    <ProductCard name="Rice" price={5000} inStock={true}></ProductCard>
    <ProductCard name="Potatoes" price={1500} inStock={false}></ProductCard>
    <ProductCard name="Pork" price={25000} inStock={true}></ProductCard>
