@@ -2,6 +2,9 @@ import React from 'react';
 import Welcome from './Welcome.jsx';
 import Citizens from './Citizens.jsx';
 import ProductCard from './ProductCard.jsx';
+import FruitList from './FruitLists.jsx'
+import UserList from './UserList.jsx'
+import TaskList from './TaskList.jsx'
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
    <ProductCard name="Potatoes" price={1500} inStock={false}></ProductCard>
    <ProductCard name="Pork" price={25000} inStock={true}></ProductCard>
    <ProductCard name="Product"></ProductCard>
+   <TaskList>ss</TaskList>
+   <UserList></UserList>
+   <FruitList></FruitList>
    
    </>
 }
